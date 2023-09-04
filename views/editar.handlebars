@@ -1,0 +1,17 @@
+<form action="/alterarProduto" method="post" id="form-editar">
+  <div class="mb-3">
+    <input type="hidden" name="id" value="{{produto.id}}">
+    <label for="nomeProduto" class="form-label">Nome do produto</label>
+    <input type="text" name="nomeProduto" class="form-control" value="{{produto.nome}}">
+  </div>
+  <div class="mb-3">
+    <label for="quantidade" class="form-label">Quantidade:</label>
+    <input type="number" name="quantidade" class="form-control" value="{{produto.quantidade}}">
+  </div>
+  <div class="mb-3">
+    <label for="preco" class="form-label">Preço: </label>
+    <input type="number" name="preco" class="form-control" value="{{produto.preco}}">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

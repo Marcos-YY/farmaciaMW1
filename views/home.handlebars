@@ -1,0 +1,22 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    {{#each produtos}}
+        <div class="col">
+            <div class="card h-100">   
+                <img src="/imgs/remedio.jpg" class="card-img-top" id="img-card">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.nome}}</h5>
+                    <p class="card-text">quantidade: {{this.quantidade}}</p>
+                    <p class="card-text">preço: {{this.preco}}</p>
+                    <div class="container text-center">
+
+                    <div class="container text-center">
+                        <div class="col"><a href="/paginaEditar/{{this.id}}"><button type="button" class="btn btn-warning">Editar produto</button></a></div>
+                        <div class="col"><a href="/excluirProduto/{{this.id}}"><button type="button" class="btn btn-danger">Excluir produto</button></a></div>
+                        <div class="col"><a href="#"><button type="button" class="btn btn-success">Ver unidades próximas</button></a></div>
+                    </div>
+                    </div>  
+                </div> 
+            </div>
+        </div>
+    {{/each}}
+</div>

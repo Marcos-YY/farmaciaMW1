@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#body-geral{
+    min-height: 100vh;
+    background-image: url('/imgs/bgPagina.jpg');
+    background-size: cover;
+}
+
+.navbar-logo {
+    max-width: 50px;
+    max-height: 50px; /* Defina o tamanho máximo que deseja para o logotipo */
+    /* Outros estilos personalizados, se necessário */
+  }
+h1{
+    color: rgb(98, 243, 1);
+}
+img{
+    border-radius: 20px;
+}
+#barraPesquisa{
+    width: 300px;
+}
+
+/*FOOTER*/
+#footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0a3622; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 2px 0; /* Espaçamento interno para o conteúdo do footer */
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 25px;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white; /* Cor do texto dos links */
+}
+
+.footer-links a:hover {
+    color: #007bff; /* Cor do texto dos links ao passar o mouse por cima */
+}
+
+.disabled-link {
+    color: #999; /* Defina a cor de texto desativada */
+    pointer-events: none; /* Isso impede que o elemento seja clicável */
+    cursor: not-allowed; /* Altera o cursor do mouse para indicar que não está ativo */
+    text-align: center;
+}
+
+/*FORM CADASTRO*/
+#form-cadastro,#form-editar {
+    width: 500px;
+    margin: 0 auto; /* Isso centraliza o formulário horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* Estilo para diminuir o tamanho das etiquetas */
+.form-label {
+    font-size: 14px;
+}
+
+.btn-primary {
+    display: block;
+    margin: 0 auto;
+}
+
+/*FORM EDITAR*/
+
+
+
+/*Home*/
+.card{
+    margin: 25px 25px;
+}
+.col{
+    margin: 5px;
+}
+
+#img-card{
+    width: 20vh;
+    height: 20vh;
+    margin: 20px auto;
+}
+
